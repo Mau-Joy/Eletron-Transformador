@@ -1,0 +1,282 @@
+*{
+	margin: auto;
+   font-family: 'Roboto Mono', monospace;
+}
+body {
+background-color: #D9DDE2;
+}
+
+/* ------------ CABEÇALHO ------------*/
+.cabecalho{
+ background-color: #294572;
+ box-shadow: 1px 1.2px 1.6px 0px #303844;
+ position: relative;
+}
+
+.menu ul{
+	float: right;
+	margin-top:-60px;
+	margin-right: 445px; 
+}
+.menu ul li {
+	display: inline-block;
+	margin-left: 50px;
+	color: white;
+}
+.menu ul li a{
+ color: white;
+ text-decoration: none;
+}
+.menu ul li a:hover{
+	color: #E29040;
+}
+.logo{
+  margin-left: 150PX;
+}
+.logo img{
+ margin-top: 10px;
+}
+.orcamento {
+	font-size: 15px;
+	float: right;
+	display: inline-block;
+	margin-right:150px;
+	margin-top: -65px;
+	border: 2px solid #E29040;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #E29040;
+}
+.orcamento a{
+	text-decoration: none;
+    color:white;
+
+}
+
+
+/* ------------------ ARTIGO -----------------*/
+
+.artigo{
+	width: 75%;
+	background-color: #F0F2F7;
+	margin-top: 20px;
+	border-radius: 20px; 
+	box-shadow: 0px 1px 2px 0px;
+	position: relative;
+}
+.primeiro-meio{
+
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+h2{
+	font-size: 35px;
+    margin-left: 50px;
+}
+h3{
+    margin-left: 75px;
+	color: grey;
+}
+.txt{
+   padding-bottom: 200px;
+   margin-left: 75px;
+}
+
+.txt h4{
+	font-size: 22px;;
+}
+.produtos {
+	margin-top: 100px; 
+}
+
+.escritura{
+	float: right;
+	margin-right: 225px;
+}
+.escritura h5{
+    font-size: 20px;
+}
+.escritura p{
+	margin-top: 20px;
+}
+.contatos p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.contatos img{
+	width: 30px;
+}
+
+.final {
+	background-color: #243956;
+	height: 150px;
+	box-shadow: 2px 5px 5px 5px;
+
+	margin-top: -50px;
+   
+}
+.final p{
+	font-family: 'Amatic SC', cursive;
+	padding-top: 75px;
+	text-align: center;
+	color: white;
+	bottom: 0;
+}
+@media only screen and (max-device-width: 850px){
+
+
+
+.cabecalho{
+ background-color: #294572;
+ height: 175px;
+ box-shadow: 1px 1.2px 1.6px 0px #303844;
+ position: relative;
+}
+
+.menu ul{
+	margin-top:-50px;
+	margin-right: 200px; 
+	float: left;
+}
+.menu ul li {
+	font-size: 40px;
+	display: inline-block;
+	margin-left: 40px;
+	color: white;
+}
+.menu ul li a{
+ color: white;
+ text-decoration: none;
+}
+.menu ul li a:hover{
+	color: #E29040;
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+
+margin-right: 75px;
+}
+.orcamento {
+	font-size: 35px;
+	display: inline-block;
+	margin-right:60px;
+	margin-top: 10px;
+	border: 2px solid #E29040;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #E29040;
+}
+.orcamento a{
+	text-decoration: none;
+    color:white;
+
+}
+
+/* ------------------ ARTIGO -----------------*/
+
+.artigo{
+	text-align: center;
+	width: 90%;
+	position: relative;
+	margin-top: 50px;
+}
+.primeiro-meio{
+
+	padding-top: 75px;
+}
+
+h2{
+	font-size: 65px;
+	margin-right: 50px;
+}
+
+h3{
+   margin-right: 50px;
+	color: grey;
+	font-size: 50px;
+}
+.txt{
+   padding-bottom: 200px;
+   margin-left: 0px;
+}
+.txt p{
+	font-size: 50px;
+}
+
+.txt h4{
+	font-size: 40px;;
+}
+.produtos {
+	margin-top: 100px; 
+}
+.produtos img{
+	margin-right:  300px;
+}
+.escritura{
+	float: right;
+	margin-top: -350px;
+	margin-right: 25px;
+}
+.escritura h5{
+    font-size: 25px;
+}
+.escritura p{
+	margin-top: 20px;
+}
+.contatos p{
+	font-size: 50px;
+	margin-top: 50px;
+}
+.contatos img{
+	width: 75px;
+}
+.algo{
+	height: 700px;
+}
+
+.final {
+	background-color: #243956;
+	height: 100px;
+	box-shadow: 2px 5px 5px 5px;
+	padding-bottom: 100px;
+    bottom:0;
+    width:100%;
+
+}
+.final p{
+	font-size: 25px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
